@@ -1,0 +1,21 @@
+{
+  "propietarios": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "avatar": "",
+      "nombres": "Jose",
+      "paterno": "Perez",
+      "materno": "Ramos",
+      "nro_documento": 6456661,
+      "expedido": "CB",
+      "genero": "MASCULINO",
+      "telefono": "70714141",
+      "celular": "70714141",
+      "domicilio": "av daniel campos",
+      "estado": "a",
+      "created": "2022-10-23T19:13:31.489787+00:00",
+      "updated": "2022-10-23T19:13:31.489827+00:00"
+    }
+  ]
+}
