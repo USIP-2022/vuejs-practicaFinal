@@ -5,6 +5,8 @@ import { onMounted, onUnmounted } from "vue";
 import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
+import Propietarios from "./Propietarios/propietarios.vue";
+
 
 
 //images
@@ -63,6 +65,15 @@ onUnmounted(() => {
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
 
 
+
+    <div class="container">
+      <div class="row">
+        <div class="d-flex flex-column w-100 text-center p-5 mb-8">
+          <h3>Lista de propietarios</h3>
+          <propietarios />
+        </div>
+      </div>
+    </div>
 
     <div class="container">
       <div class="row">
@@ -156,6 +167,8 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
+
+
   </div>
   <DefaultFooter />
 </template>
