@@ -16,6 +16,125 @@
       "estado": "a",
       "created": "2022-10-23T19:13:31.489787+00:00",
       "updated": "2022-10-23T19:13:31.489827+00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "avatar": "",
+      "nombres": "Roger",
+      "paterno": "Dalenz",
+      "materno": "merida",
+      "nro_documento": 123456,
+      "expedido": "LP",
+      "genero": "MASCULINO",
+      "telefono": "4544545",
+      "celular": "70714141",
+      "domicilio": "Av america #200",
+      "estado": "a",
+      "created": "2022-10-24T01:21:02.047551+00:00",
+      "updated": "2022-10-24T01:21:02.047596+00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "avatar": "",
+      "nombres": "Hector",
+      "paterno": "Diaz",
+      "materno": "Borda",
+      "nro_documento": 123458,
+      "expedido": "LP",
+      "genero": "MASCULINO",
+      "telefono": "4566565",
+      "celular": "7676767",
+      "domicilio": "Av Daniel campos s/n",
+      "estado": "a",
+      "created": "2022-10-24T01:21:46.418286+00:00",
+      "updated": "2022-10-24T01:21:46.418333+00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "avatar": "",
+      "nombres": "Ramiro",
+      "paterno": "Ledezma",
+      "materno": "Pereira",
+      "nro_documento": 12349,
+      "expedido": "CB",
+      "genero": "MASCULINO",
+      "telefono": "45454123",
+      "celular": "76772212",
+      "domicilio": "Av Suecia #100",
+      "estado": "a",
+      "created": "2022-10-24T01:23:39.865769+00:00",
+      "updated": "2022-10-24T01:23:39.865814+00:00"
+    }
+  ],
+  "reuniones": [
+    {
+      "id": 1,
+      "fecha_reunion": "2022-10-23T14:00:00+00:00",
+      "motivo": "Reunion de coordinación",
+      "estado": "a",
+      "user_id": 1,
+      "created": "2022-10-24T01:27:21.210614+00:00",
+      "updated": "2022-10-24T01:27:21.210645+00:00"
+    }
+  ],
+  "asistencias": [
+    {
+      "id": 1,
+      "tipo_asistencia": "p",
+      "motivo_permiso": "ninguno",
+      "estado": "a",
+      "user_id": 1,
+      "created": "2022-10-24T01:27:41.210458+00:00",
+      "updated": "2022-10-24T01:27:41.210511+00:00",
+      "inmueble_id": 1,
+      "reunion_id": 1
+    },
+    {
+      "id": 2,
+      "tipo_asistencia": "p",
+      "motivo_permiso": "ninguno",
+      "estado": "a",
+      "user_id": 1,
+      "created": "2022-10-24T01:28:08.048387+00:00",
+      "updated": "2022-10-24T01:28:08.048423+00:00",
+      "inmueble_id": 2,
+      "reunion_id": 1
+    },
+    {
+      "id": 3,
+      "tipo_asistencia": "j",
+      "motivo_permiso": "Esta de viaje, solicito permiso",
+      "estado": "a",
+      "user_id": 1,
+      "created": "2022-10-24T01:28:27.20864+00:00",
+      "updated": "2022-10-24T01:28:27.208704+00:00",
+      "inmueble_id": 3,
+      "reunion_id": 1
+    },
+    {
+      "id": 4,
+      "tipo_asistencia": "f",
+      "motivo_permiso": "NO asistió a la reunión",
+      "estado": "a",
+      "user_id": 1,
+      "created": "2022-10-24T01:28:42.09681+00:00",
+      "updated": "2022-10-24T01:28:42.096854+00:00",
+      "inmueble_id": 4,
+      "reunion_id": 1
+    },
+    {
+      "id": 5,
+      "tipo_asistencia": "p",
+      "motivo_permiso": "ninguno",
+      "estado": "a",
+      "user_id": 1,
+      "created": "2022-10-24T01:28:56.215569+00:00",
+      "updated": "2022-10-24T01:28:56.215606+00:00",
+      "inmueble_id": 5,
+      "reunion_id": 1
     }
   ]
 }
